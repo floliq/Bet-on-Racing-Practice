@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="road">
+            <img class="car1" src="img/car1.svg" alt="white car">
+        </div>
+        <div class="road">
+            <img class="car2" src="img/car2.svg" alt="black car">
+        </div>
+    </div>
+    <div class="info">
+        <p>Твой счёт: <span class="score"></span></p>
+        <p>Твоя ставка: <span class="bet"></span></p>
+        <button class="minus">-10</button>
+        <button class="plus">+10</button>
+        <p>Кто победит?</p>
+        <button onclick="properlyWinner('black')" class="black">Черная</button>
+        <button onclick="properlyWinner('white')" class="White">Белая</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
